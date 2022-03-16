@@ -1,0 +1,29 @@
+name: firebase-deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    # Build jekyll
+    - uses:  lemonarc/jekyll-action@1.0.0
+      env:
+        JEKYLL_ENV: production
+    
+    - name: npm install, firebase deploy
+      run: |
+        npm ci
+        npm install
+        ./node_modules/.bin/firebase deploy --project dionricky-monogatari --debug --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
