@@ -7,8 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "firebase:deploy": "firebase deploy --project dionricky-blog --debug --only hosting",
-    "firebase:deploy-ci": "firebase deploy --project dionricky-blog --debug --only hosting --token ${{ secrets.FIREBASE_TOKEN }}"
+    "firebase:deploy": "firebase deploy --project dionricky-blog --debug --only hosting"
   },
   "hexo": {
     "version": "7.3.0"

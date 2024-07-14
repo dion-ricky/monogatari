@@ -17,4 +17,4 @@ jobs:
     - name: Deploy to Firebase
       run: |
         cd src
-        npm run firebase:deploy-ci
+        npm run firebase:deploy-ci -- --token ${{ secrets.FIREBASE_TOKEN }}
