@@ -1,0 +1,23 @@
+name: gcs-deploy
+on:
+  push:
+    branches:
+      - *
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Generating website
+      run: |
+        cd src
+        npm install
+        npm run build
+        cd ..
+    
+    - name: Deploy to Firebase
+      run: |
+        cd src
+        npm run firebase:deploy-ci
