@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "35996fd50030a9dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "168cc78bfe017d25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c706df15b788b5ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Land of Zenaa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "954999e50b19c9fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d9f815ab167617b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8d6134be5d09072",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c536078ca9ccfb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3dfc6bd7fdf07fb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d4d96d023187fb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "09bf329c6af81a7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "475274e3325d46be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The Land of Zenaa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e0344982e05d8d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "The Land of Zenaa.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "210b4b72c4d60733",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a5dbcda0a3c60db6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The Land of Zenaa.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c706df15b788b5ce",
+  "lastOpenFiles": [
+    "Pasted image 20240713223441.png.md",
+    "The Land of Zenaa.md",
+    "asset/Pasted image 20240713223441.png",
+    "asset",
+    "assets/Pasted image 20240713215806.png",
+    "assets",
+    "Welcome.md"
+  ]
+}
