@@ -1,4 +1,4 @@
-name: gcs-deploy
+name: firebase-deploy
 on: push
 
 jobs:
