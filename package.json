@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "hexo": "^7.3.0"
+    "hexo": "^8.1.1"
   }
 }
